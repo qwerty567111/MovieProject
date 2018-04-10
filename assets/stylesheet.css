@@ -29,6 +29,7 @@ h1
     border: 1.5px solid brown;
     border-left-width: 10px;
     margin-bottom: 0;
+    margin-top: 10px;
 }
 .gallery, .gallery th
 {
@@ -55,6 +56,11 @@ h1
     width: 60%;
     padding-left: 5px;
 }
+.quotes
+{
+    width: 65%;
+    padding-left: 5px;
+}
 .midParaHeadings
 {
     font-style: italic;
@@ -69,4 +75,8 @@ h1
 {
     text-decoration: none;
     font-style: italic;
+}
+.quoteLine
+{
+    font-weight: 300;
 }
