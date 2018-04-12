@@ -53,7 +53,7 @@ h1
 }
 .name2
 {
-    color: cadetblue;
+    color: darkcyan;
 }
 #review
 {
@@ -89,4 +89,8 @@ h1
 #lastP
 {
     margin-bottom: 40px;
+}
+#castTable, td
+{
+    font-weight: 300;
 }
