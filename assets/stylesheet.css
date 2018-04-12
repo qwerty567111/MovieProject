@@ -1,9 +1,13 @@
+html
+{
+    overflow-y: scroll; 
+}
 body 
 {
     background-image: url("lb1.png");
     background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 100%;
+    background-position: right bottom;
+    background-size: 85%;
     background-attachment: fixed;
 }
 .menu, .menu td a
@@ -71,12 +75,18 @@ h1
 {
     font-weight: 300;
 }
-#reviewerLink, a
+#reviewerLink, a, a:visited
 {
     text-decoration: none;
     font-style: italic;
+    color: firebrick;
+    text-align: center;
 }
 .quoteLine
 {
     font-weight: 300;
+}
+#lastP
+{
+    margin-bottom: 40px;
 }
