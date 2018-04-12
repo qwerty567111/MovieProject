@@ -90,7 +90,17 @@ h1
 {
     margin-bottom: 40px;
 }
-#castTable, td
+#castTable
+{
+    border-spacing: 0;
+}
+#castTable td
 {
     font-weight: 300;
+    padding: 0;
+    line-height: 0;
+}
+#tableDiv
+{
+    margin-top: 16px;
 }
